@@ -1,0 +1,54 @@
+#myCarousel{
+background-color: greenyellow;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+  font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: snow;
+}
+.menu {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+    background: black;
+}
+
+.links {
+    display: inline;
+    color: blue;
+    padding-left: 32px;
+    padding-right: 25px;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.links:hover {
+    background-color: cyan;
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    text-align: center;
+}
+#welcome{
+    width: 70%;
+    height: 60%;
+}
+#grid{
+    
+    width: 60%;
+}
